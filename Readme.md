@@ -93,7 +93,7 @@ git commit -m "Title_of_the_modification"
 git push
 ```
 
-## This work was carried out by 
+##  
 
 - [@luislebarbey](https://www.github.com/luislebarbey)
 - [@MrMchen](https://www.github.com/MrMchen)
