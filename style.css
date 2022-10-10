@@ -92,9 +92,9 @@ header button:hover span:first-child{
 	transform: translate(10px);
 }
 
-/* section social */
+/* section rs */
 
-section#social{
+section#rs{
     margin-left: 20px;
     position:fixed;
     z-index: 99999;
@@ -104,31 +104,31 @@ section#social{
     top:35%;
 }
 
-section#social img{
+section#rs img{
     margin-top: 20px;
 }
 
 
-/* section primary */
+/* section introduction */
 
-section#primary {
+section#introduction {
     background-image:url("img/background1.png");
     height:100vh;
     background-position: center;
     background-size: cover;
 }
 
-section#primary .gauche{
+section#introduction .left{
     margin-left: 70px;
     padding: 20px;
     width: 30%;
 }
 
-section#primary .gauche h1{
+section#introduction .left h1{
     font-size: 30px;
 }
 
-section#primary button{
+section#introduction button{
     margin: 20px 0;
     padding: 20px;
     border: 1px solid #28b7c5;
@@ -168,13 +168,13 @@ section#primary button{
     line-height: 8px;
 }
 
-/* section second */
+/* section method */
 
-section#second {
+section#method {
     display: flex;
 }
 
-section#second .droite{
+section#method .droite{
     padding: 20px;
     width: 30%;
     display:flex;
@@ -183,38 +183,38 @@ section#second .droite{
     align-items: flex-end;
 }
 
-section#second .GG{
+section#method .LT{
     width: 70%;
 }
 
-section#second .GG img {
+section#method .LT img {
     width:80%;
 }
 
-section#second .droite h1{
+section#method .droite h1{
     font-size: 30px;
 }
 
-section#second h2{
+section#method h2{
     margin-top:50px;
 }
 
-section#second h3{
+section#method h3{
     margin-top:50px;
 }
 
-section#second button{
+section#method button{
     margin: 20px 0;
     padding: 20px;
     border: 1px solid #28b7c5;
     background: white;
 }
 
-section#second #ez{
+section#method #ez{
     margin-top: 10px;
 }
   
-section#second .line {
+section#method .line {
     line-height: 8px;
     margin-top: 15px;
     display: flex;
@@ -222,13 +222,13 @@ section#second .line {
     align-items: flex-end;
 }
 
-section#second p, h3{
+section#method p, h3{
     text-align: end;
 }
 
-/* section competences */
+/* section compet */
 
-#competences .competences{
+#compet .compet{
 	display: flex;
 	justify-content: space-around;
 	padding-left: 100px;
@@ -237,7 +237,7 @@ section#second p, h3{
 	padding-bottom: 30px;
 }
 
-#competences .competences .idee-projet{
+#compet .compet .idee-projet{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -246,7 +246,7 @@ section#second p, h3{
 
 
 
-#competences .competences .reflexion{
+#compet .compet .reflexion{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -254,14 +254,14 @@ section#second p, h3{
 }
 
 
-#competences .competences .deploiement{
+#compet .compet .deploiement{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-#competences .competences h3,p{
+#compet .compet h3,p{
 	display: flex;
 	text-align: center;
 	justify-content: center;
@@ -269,22 +269,22 @@ section#second p, h3{
 	font-family: sans-serif;
 }
 
-#competences .competences p{
+#compet .compet p{
 	font-size: 16px;
 }
 
 
-#competences .competences img {
+#compet .compet img {
 	min-width: 25%;
 	width: 30%;
 }
 
-#competences .btncompt{
+#compet .btncompt{
 	display:flex;
 	justify-content: center;
 }
 
-#competences .btncompt button{
+#compet .btncompt button{
 	font-family: sans-serif;
 	margin: 20px 0;
 	padding-left: 40px;
@@ -296,7 +296,7 @@ section#second p, h3{
 	cursor: pointer;
 }
 
-#competences .btncompt button:hover{
+#compet .btncompt button:hover{
 	color: black;
 	border: 2px solid #28b7c5;
 	background: #28b7c5;
@@ -308,13 +308,13 @@ section#three {
     display: flex;
 }
 
-section#three .gauche{
+section#three .left{
     margin-left: 70px;
     padding: 20px;
     width: 30%;
 }
 
-section#three .gauche h1{
+section#three .left h1{
     font-size: 30px;
 }
 
@@ -325,12 +325,12 @@ section#three button{
     background: white;
 }
 
-section#three #DD{
+section#three #RT{
     width: 70%;
     margin-left:150px;
 }
 
-section#three #DD img {
+section#three #RT img {
     width:80%;
 }
 
@@ -349,11 +349,11 @@ section#four .droite{
     align-items: flex-end;
 }
 
-section#four .GG{
+section#four .LT{
     width: 70%;
 }
 
-section#four .GG img {
+section#four .LT img {
     width:80%;
 }
 
@@ -398,13 +398,13 @@ section#five {
     display: flex;
 }
 
-section#five .gauche{
+section#five .left{
     margin-left: 70px;
     padding: 20px;
     width: 30%;
 }
 
-section#five .gauche h1{
+section#five .left h1{
     font-size: 30px;
 }
 
@@ -415,12 +415,12 @@ section#five button{
     background: white;
 }
 
-section#five #DD{
+section#five #RT{
     width: 70%;
     margin-left:150px;
 }
 
-section#five #DD img {
+section#five #RT img {
     width:80%;
 }
 
@@ -541,13 +541,13 @@ footer hr{
 
     /* competence */
 
-    #competences .competences{
+    #compet .competences{
 		flex-wrap: wrap;
 	}
 
-    /* section social */
+    /* section rs */
 
-    section#social {
+    section#rs {
         position: inherit;
         display: flex;
         justify-content: space-evenly;
@@ -556,21 +556,21 @@ footer hr{
         margin-left: 0;
     }
 
-    /* section primary */
+    /* section introduction */
 
-    section#primary .gauche {
+    section#introduction .left {
         width: auto;
         margin-left: 10px;
         margin-left: 0;
     }
 
-    /* section second */
+    /* section method */
 
-    section#second{
+    section#method{
         flex-direction: column-reverse
     }
 
-    section#second .droite {
+    section#method .droite {
         padding: 20px;
         width: auto;
         display: flex;
@@ -578,16 +578,16 @@ footer hr{
         margin-right: 0;
         align-items:flex-start;
     }
-    section#second .line {
+    section#method .line {
         align-items: flex-start;
     }
-    section#second p, h3 {
+    section#method p, h3 {
         text-align: start;
     }
-    section#second .GG{
+    section#method .LT{
         width:100%;
     }
-    section#second .GG img {
+    section#method .LT img {
         width: 100%;
     }
 
@@ -595,7 +595,7 @@ footer hr{
     section#three {
         flex-direction: column;
     }
-    section#three .gauche {
+    section#three .left {
         margin-left: 0;
         padding: 10px;
         width: auto;
@@ -604,7 +604,7 @@ footer hr{
         display: block;
         text-align: start;
     }
-    section#three #DD {
+    section#three #RT {
         width: auto;
         margin-left: 20px;
     }
@@ -628,7 +628,7 @@ footer hr{
     section#four .line {
         align-items: flex-start;
     }
-    section#four .GG {
+    section#four .LT {
         width: auto;
     }
 
@@ -637,11 +637,11 @@ footer hr{
     section#five {
         flex-direction: column;
     }
-    section#five .gauche {
+    section#five .left {
         margin-left: 0;
         width: auto;
     }
-    section#five #DD {
+    section#five #RT {
         width: auto;
         margin-left: 0;
     }
