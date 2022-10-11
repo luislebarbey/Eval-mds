@@ -1,0 +1,43 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>EVAL</title>
+</head>
+<body>
+
+<section id="five">
+    <div class="left">
+        <h2>Envoie nous un massege !</h2> 
+        <form action="/ma-page-de-traitement" method="post">
+            <div>
+                <input type="text" id="name" name="user_name" placeholder="Nom">
+            </div>
+            <div>
+                <input type="text" id="prenom" name="user_premon" placeholder="Prénom">
+            </div>
+            <div>
+                <input type="email" id="mail" name="user_mail" placeholder="Email">
+            </div>
+            <div>
+                <textarea id="msg" name="user_message" placeholder="Ton message..."></textarea>
+            </div>
+            <div>
+                <button>Envoyer</button>
+                <button>Appeler</button>
+            </div>
+        </form>
+        <div class="line">
+            <span class="line-1"></span><br />
+            <span class="line-2"></span><br />
+            <span class="line-3"></span>
+        </div>
+    </div>
+    <div id="RT">
+        <img src="img/envoie-message.png">
+    </div>
+</section>
+</body>
+</html>
